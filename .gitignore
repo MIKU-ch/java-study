@@ -3,6 +3,19 @@
 Thumbs.db
 
 # ユーザーディレクトリの無視
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+.vscode/
+.idea/
+build/
+dist/
+target/
+ntuser.*
+>>>>>>> e90991d85caf368833cbed26ed864196ce937cd6
 AppData/
 Contacts/
 Downloads/
@@ -10,6 +23,8 @@ Favorites/
 Links/
 Music/
 NTUSER.DAT*
+=======
+>>>>>>> e90991d85caf368833cbed26ed864196ce937cd6
 OneDrive/
 Saved Games/
 Searches/
@@ -38,5 +53,4 @@ tmp/
 
 # 無視したい特定のファイル
 beginner.txt
-# 無視したい特定のファイル
 .gitconfig
