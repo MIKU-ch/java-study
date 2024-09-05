@@ -1,0 +1,56 @@
+# OSによる一時ファイルやシステムファイルを無視
+.DS_Store
+Thumbs.db
+
+# ユーザーディレクトリの無視
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+.vscode/
+.idea/
+build/
+dist/
+target/
+ntuser.*
+>>>>>>> e90991d85caf368833cbed26ed864196ce937cd6
+AppData/
+Contacts/
+Downloads/
+Favorites/
+Links/
+Music/
+NTUSER.DAT*
+=======
+>>>>>>> e90991d85caf368833cbed26ed864196ce937cd6
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+Documents/
+Desktop/
+Pictures/
+
+# IDEやエディタの設定を無視
+.vscode/
+.idea/
+*.iml
+
+# ビルドディレクトリを無視
+build/
+out/
+target/
+
+# その他の一般的な無視パターン
+node_modules/
+dist/
+tmp/
+*.log
+*.tmp
+*.swp
+
+# 無視したい特定のファイル
+beginner.txt
+.gitconfig
